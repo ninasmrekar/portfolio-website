@@ -1,0 +1,172 @@
+body{
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  background-color: #D9ABAB;
+}
+
+.logo{
+  width: 100px;
+  height: 90px;
+}
+
+.creative{
+  color: #c80000;
+}
+
+h2{
+  font-weight: bold;
+  margin: 0;
+}
+
+main > img{
+  border-radius: 20px;
+  border: 5px solid #c80000;
+ /* box-shadow: 10px 10px 5px #c80000bd;*/
+}
+
+/* Responsive Layout for Mobile Devices */
+@media (max-width: 600px){
+  h1{
+    font-size: 3rem;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+
+  header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 4%;
+  }
+
+  img{
+    height: 100px;
+    width: 200px;
+    margin-top: 5%;
+  }
+
+  .image-description{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 5%;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    align-items: center;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: right;
+  }
+}
+
+
+/* Responsive Layout for Tablets */
+@media (min-width: 601px) and (max-width: 1200px){
+  h1{
+    font-size: 5rem;
+  }
+
+  p{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  header{
+    margin-top: 50px;
+    margin-bottom: 4%;
+  }
+
+  img{
+    height: 300px;
+    width: 600px;
+    margin-top: 5%;
+  }
+
+  .image-description{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 5%;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    align-items: center;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+}
+
+
+/* Responsive Layout for Laptops and Desktops */
+@media (min-width: 1201px){
+  h1{
+    font-size: 6rem;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  header{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 4%;
+  }
+
+  img{
+    height: 200px;
+    width: 400px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 5%;
+  }
+
+  .image-description{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 5%;
+  }
+
+  footer{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+}
