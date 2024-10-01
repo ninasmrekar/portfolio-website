@@ -1,0 +1,19 @@
+.work-page{
+    min-height: 80vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-bottom: 0;
+    align-self: center;
+    height: 100%;
+    text-align: center;
+}
+
+.work-gallery{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}

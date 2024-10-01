@@ -1,0 +1,21 @@
+nav{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
