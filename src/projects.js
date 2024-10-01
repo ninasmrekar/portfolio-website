@@ -15,61 +15,55 @@ const projects = [
         id: 3,
         title: "TO DO List",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/to-do-list.PNG"
     },
     {
         id: 4,
         title: "Mondrian",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/mondrian.PNG"
     },
     {
         id: 5,
         title: "Pricing Table",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/pricing-table.PNG"
     },
     {
         id: 6,
         title: "Motivational Poster",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/motivational-poster.PNG"
     },
     {
         id: 7,
         title: "Canva Hotel Project",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/hotel-project.PNG"
     },
     {
         id: 8,
-        title: "Drum Kit",
+        title: "Canva Winery Project",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/winery.PNG"
     },
     {
         id: 9,
         title: "Simon Game",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/simon-game.PNG"
     },
     {
         id: 10,
-        title: "Dice Game",
+        title: "Drum Kit",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/drum-kit.PNG"
     },
     {
         id: 11,
-        title: "Canva Winery Project",
+        title: "Dice Game",
         description: "",
-        image: "./projects/random-overload-blog.PNG"
-    },
-    {
-        id: 12,
-        title: "Rock Paper Scissors",
-        description: "",
-        image: "./projects/random-overload-blog.PNG"
+        image: "./projects/dice-game.PNG"
     }
 ]
 

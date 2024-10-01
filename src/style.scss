@@ -1,20 +1,31 @@
-#root {
+.container{
+  background-image: url(../public/test3.gif);//url(../public/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Rubik", sans-serif;
   font-weight: 900;
   height: 100%;
 }
 
-.container{
-  background-image: url(../public/background-image.jpg);
+.work-container{
+  background-image: url(../public/test3.gif);//url(../public/background-image.jpg);
   background-repeat: no-repeat;
-  background-size: 100vw 102vh;
+  background-size: 100% 100%;
   color: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  height: 132vh;
 }
 
 html, body {
   height: 98%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.923), rgba(0, 0, 0, 0.940));
+ /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.923), rgba(0, 0, 0, 0.940));*/
+ background-color: black;
 }

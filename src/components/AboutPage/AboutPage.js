@@ -10,7 +10,11 @@ function AboutPage(){
             <ProfileImage />
             <section>
                 <Heading2 content="ABOUT ME"/>
-                <Paragraph content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
+                <Paragraph content="Hey there, I am Nina, a web developer based in Zurich, Switzerland. 
+                    I have completed a four-year apprenticeship as Application Developer and am currently studying at Eastern Switzerland University of Applied Sciences.
+                    I create and design web applications. I work on frontend and backend and am familiar with technologies like React, JavaScript, Node.js, HTML, Bootstrap, CSS, Java and C#.
+                    On this website you can find some of my projects that I worked on in the past. I am a hardworking person with many interests who is constantly trying to learn something new.
+                    In my freetime I like to read, walk with my dog, draw and bake. If you are interested in my work feel free to contact me."/>
             </section>
     </main>
    );

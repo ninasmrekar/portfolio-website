@@ -5,7 +5,7 @@ import WorkPage from "../components/WorkPage/WorkPage.js";
 
 const Work = () => {
     return (
-        <div className="container">
+        <div className="work-container">
             <Nav />
             <WorkPage />
            <Footer />
