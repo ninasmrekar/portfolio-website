@@ -3,9 +3,9 @@ import "./WorkItem.scss"
 
 function WorkItem(props){
     return (
-        <div className="work-item">
+        <a href={"/work/" + props.id}><div className="work-item">
             <img src={props.src} alt={props.alt}/>
-        </div>
+        </div></a>
     );
 } 
 

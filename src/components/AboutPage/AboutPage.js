@@ -8,7 +8,7 @@ function AboutPage(){
     return (
         <main className="about-page">
             <ProfileImage />
-            <section>
+            <section className="about-section">
                 <Heading2 content="ABOUT ME"/>
                 <Paragraph content="Hey there, I am Nina, a web developer based in Zurich, Switzerland. 
                     I have completed a four-year apprenticeship as Application Developer and am currently studying at Eastern Switzerland University of Applied Sciences.

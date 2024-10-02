@@ -6,7 +6,7 @@ import projects from "../../projects.js";
 
 function WorkPage(){
     function addProjects(project){
-        return (<WorkItem key={project.id} src={project.image} alt={project.title}/>);
+        return (<WorkItem key={project.id} id={project.id} src={project.image} alt={project.title}/>);
     }
 
     return (

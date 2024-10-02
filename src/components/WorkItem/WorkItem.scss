@@ -2,6 +2,8 @@
     height: 15rem;
     width: 15rem;
     background: white;
+    border-radius: 5px;
+    border: 2px solid white;
 }
 
 .work-item > img{
@@ -10,6 +12,7 @@
     object-fit: cover;
     margin:  0;
     filter: grayscale(100%);
+    border-radius: 5px;
 }
 
 .work-item > img:hover {

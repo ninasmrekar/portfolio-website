@@ -3,12 +3,12 @@
     display: flex;
     flex-direction: row !important;
     justify-content: start;
-    height: 53vh;
+    height: 54.7vh;
     align-self: center;
     width: 61vw;
 }
 
-section{
+.about-section{
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -16,9 +16,9 @@ section{
     height: 60vh;
 }
 
-section p{
+.about-section p{
     color: black;
     padding: 1rem;
-    background-color: #ffffffc7;   
+    background-color: white;
     border-radius: 5px; 
 }

@@ -14,7 +14,7 @@
 .work-container{
   background-image: url(../public/test3.gif);//url(../public/background-image.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 102% 100%;
   color: white;
   display: flex;
   justify-content: center;
@@ -28,4 +28,5 @@ html, body {
   height: 98%;
  /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.923), rgba(0, 0, 0, 0.940));*/
  background-color: black;
+ margin: 0;
 }
