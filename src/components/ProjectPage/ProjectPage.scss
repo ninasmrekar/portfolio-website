@@ -36,6 +36,14 @@ section h2{
     margin-top: 2rem;
     border-radius: 5px;
     border: 1px solid white;
+    background-color: white;
+    color: black;
     display: flex;
     align-self: end !important;
+}
+
+.view-btn:hover, .view-btn:active, .view-btn:active:focus{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
 }

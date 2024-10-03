@@ -5,8 +5,8 @@ import AboutPage from "../components/AboutPage/AboutPage.js";
 
 const About = () => {
     return (
-        <div className="container">
-            <Nav />
+        <div className="about-container">
+            <Nav active="About"/>
             <AboutPage />
            <Footer />
         </div>

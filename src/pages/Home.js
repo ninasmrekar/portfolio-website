@@ -4,9 +4,9 @@ import Nav from '../components/Nav/Nav.js';
 
 const Home = () => {
     return (
-        <div className="container">
+        <div className="home-container">
           <Header />
-          <Nav />
+          <Nav active="Home"/>
         </div>
       );
     };

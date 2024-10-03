@@ -8,8 +8,8 @@ const Project = () => {
     let { id } = useParams();
 
     return (
-        <div className="container">
-          <Nav />
+        <div className="project-container">
+          <Nav active=""/>
           <ProjectPage id={id}/>
           <Footer />
         </div>

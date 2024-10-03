@@ -9,7 +9,7 @@ function Header(){
         <header>
             <Heading1 content="NINA SMREKAR" />
             <Heading2 content="WEB DEVELOPER" />
-            <ColorfulButton content="CONTACT ME" />
+            <ColorfulButton content="CONTACT ME" />            
         </header>
     );
 } 

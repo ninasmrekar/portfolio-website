@@ -1,6 +1,6 @@
 nav{
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     justify-content: space-around;
 }
 
@@ -18,4 +18,22 @@ li{
 a{
     color: white;
     text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: white;
+    color: black;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
 }
