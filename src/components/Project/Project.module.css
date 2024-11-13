@@ -27,5 +27,17 @@
     transform: scale(1.1); 
     z-index: 1;
     border-radius: 50%;
-
 }
+
+@media only screen and (max-width: 580px) {
+    .project{
+        height: auto;
+        width: 20rem;
+        aspect-ratio: 1;
+        background: white;
+        border-radius: 5px;
+        border: 2px solid white;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+  }

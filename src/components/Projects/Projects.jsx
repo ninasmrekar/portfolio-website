@@ -8,7 +8,7 @@ function Projects() {
       <Project
         key={project.id}
         id={project.id}
-        src={"/public/projects/" + project.image}
+        src={"/projects/" + project.image}
         alt={project.title}
       />
     );

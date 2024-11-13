@@ -3,37 +3,11 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 76vh;
+  height: 80vh;
   text-align: center;
-  margin: 3rem;
   border: 5px solid white;
   border-radius: 5px;
-}
-
-.header h1{
-  font-size: 10rem;
-  letter-spacing: 30px;
-  margin: 0;
-}
-
-.header h2{
-  font-size: 5rem;
-  margin: 0;    
-  margin-bottom: 1rem;
-  letter-spacing: 30px;
-  font-weight: 400;
-}
-
-.custom-btn{
-  padding: 2rem;
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
-  background-color: white;
-  border: 2px solid white;
-  margin-top: 3rem;
-  border-radius: 5px;
-  color: black;
+  width: 94vw;
 }
 
 .custom-btn:hover, .custom-btn:active, .custom-btn:active:focus{
@@ -43,14 +17,130 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
+  .header{
+    margin: 1rem;
+  }
+
+  .header h1{
+    font-size: 3rem;
+    letter-spacing: 10px;
+    margin-bottom: 1rem;
+  }
   
+  .header h2{
+    font-size: 1rem;
+    margin: 0;    
+    margin-bottom: 1rem;
+    letter-spacing: 7px;
+    font-weight: 400;
+  }
+
+  .custom-btn{
+    padding: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: black;
+  }
 }
 
-@media only screen and (min-width: 768px) {
- 
+@media only screen and (min-width: 681px) {
+  .header{
+    margin: 1rem;
+  }
+
+  .header h1{
+    font-size: 6rem;
+    letter-spacing: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .header h2{
+    font-size: 3rem;
+    margin: 0;    
+    margin-bottom: 1rem;
+    letter-spacing: 20px;
+    font-weight: 400;
+  }
+
+  .custom-btn{
+    padding: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: black;
+  }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 980px) {
+  .header{
+    margin: 2rem;
+  }
+
+  .header h1{
+    font-size: 6rem;
+    letter-spacing: 20px;
+    margin-bottom: 1rem;
+  }
   
+  .header h2{
+    font-size: 3rem;
+    margin: 0;    
+    margin-bottom: 1rem;
+    letter-spacing: 20px;
+    font-weight: 400;
+  }
+
+  .custom-btn{
+    padding: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .header{
+    margin: 3rem;
+  }
+
+  .header h1{
+    font-size: 10rem;
+    letter-spacing: 30px;
+    margin: 0;
+  }
+  
+  .header h2{
+    font-size: 5rem;
+    margin: 0;    
+    margin-bottom: 1rem;
+    letter-spacing: 30px;
+    font-weight: 400;
+  }
+
+  .custom-btn{
+    padding: 2rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 3rem;
+    border-radius: 5px;
+    color: black;
+  }
 }

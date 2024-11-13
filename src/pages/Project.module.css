@@ -1,0 +1,114 @@
+.container p{
+    color: black;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px; 
+}
+
+.custom-btn{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: black;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.custom-btn:hover, .custom-btn:active, .custom-btn:active:focus{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 95vh;
+    }
+
+    .container img{
+        height: 20vh;
+        width: 70vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+
+    .container h2{
+        font-size: 3rem;
+        margin: 0;    
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 95vh;
+    }
+
+    .container img{
+        height: 35vh;
+        width: 70vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+
+    .container h2{
+        font-size: 3rem;
+        margin: 0;    
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+        margin-top: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 95vh;
+        align-items: start !important;
+    }
+
+    .container h2{
+        font-size: 5rem;
+        margin: 0;    
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .container section{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+        width: 30vw;
+    }
+
+    .container img{
+        height: 40vh;
+        width: 35vw;
+        margin-top: 1rem;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+}
