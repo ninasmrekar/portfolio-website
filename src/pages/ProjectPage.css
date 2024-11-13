@@ -1,0 +1,57 @@
+.project-page{
+    margin: 7%;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: start;
+    height: 54.7vh;
+    align-self: center;
+    width: 70vw;
+}
+
+section{
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    margin-left: 3rem;
+    height: 60vh;
+}
+
+section p{
+    color: black;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px; 
+}
+
+section h2{
+    text-align: center;
+}
+
+.view-btn{
+    padding: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-self: end !important;
+}
+
+.view-btn:hover, .view-btn:active, .view-btn:active:focus{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.project-img{
+    height: 40vh;
+    width: 35vw;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 2px solid white;
+}

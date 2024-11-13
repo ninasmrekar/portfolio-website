@@ -1,0 +1,31 @@
+.project{
+    height: auto;
+    width: auto;
+    aspect-ratio: 1;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.project > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin:  0;
+    filter: grayscale(100%);
+    border-radius: 5px;
+}
+
+.project > img:hover {
+    filter: grayscale(0%);
+    border-radius: 50%;
+}
+
+.project:hover{
+    transform: scale(1.1); 
+    z-index: 1;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,15 @@
+html, body {
+  background-color: black;
+  margin: 0;
+  font-family: "Rubik", sans-serif !important;
+  font-weight: 900;
+  background-image: url(./assets/background-image.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
