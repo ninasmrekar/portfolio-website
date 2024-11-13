@@ -23,23 +23,23 @@ const projects = [
     {
         id: 4,
         title: "Random Overload Blog",
-        description: "Blog where users can create and read posts. Made with HTML, CSS, JavaScript, Node.js.",
+        description: "Blog where users can create and read posts. Made with HTML, CSS, JavaScript and Node.js. Web application loads very slowly!",
         image: "random-overload-blog.PNG",
         link: "https://random-overload-blog.onrender.com"
     },
     {
         id: 5,
         title: "Poetry Website",
-        description: "Web application for searching poetry. Made with HTML, CSS, Bootstrap, Javascript, Node.js and APIs.",
+        description: "Web application for searching poetry. Made with HTML, CSS, Bootstrap, Javascript and Node.js. Web application loads very slowly!",
         image: "lost-in-poetry.PNG",
         link: "https://lost-in-poetry-website.onrender.com/"
     },
     {
         id: 6,
         title: "TO DO List",
-        description: "Web application for creating daily, weekly, monthly and yearly to do lists. Made with HTML, CSS, Javascript, Node.js, Postgres and Passport.js Authentication.",
+        description: "Web application for creating daily, weekly, monthly and yearly to do lists. Made with HTML, CSS, Javascript, Node.js, PostgreSQL and Passport.js Authentication.",
         image: "to-do-list.PNG",
-        link: ""
+        link: "https://github.com/ninasmrekar/to-do-list"
     },
     {
         id: 7,
@@ -100,7 +100,7 @@ const projects = [
     {
         id: 15,
         title: "Rock Paper Scissors",
-        description: "Rock Paper Scissors made with HTML, CSS, Javascript and APIs. The game is only in german!",
+        description: "Rock Paper Scissors made with HTML, CSS, Javascript and APIs. This game is only in german! Web application loads very slowly!",
         image: "rock-paper-scissors.PNG",
         link: "https://schere-stein-papier-r7qu.onrender.com/schere-stein-papier.html"
     }
