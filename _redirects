@@ -1,4 +1,1 @@
-/ /
-/work /work
-/about /about
-/work/* /work/:id
+/* /index.html 200
