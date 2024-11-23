@@ -1,10 +1,10 @@
 const projects = [
     {
         id: 1,
-        title: "Project Management",
-        description: "Project management app made with React.",
-        image: "project-management.PNG",
-        link: "https://project-management-nina.netlify.app/"
+        title: "Landing Page",
+        description: "Landing Page for landscape photography made with HTML and CSS.",
+        image: "landing-page.PNG",
+        link: "https://ninasmrekar.github.io/landing-page/"
     },
     {
         id: 2,
@@ -99,6 +99,13 @@ const projects = [
     },
     {
         id: 15,
+        title: "Project Management",
+        description: "Project management app made with React.",
+        image: "project-management.PNG",
+        link: "https://project-management-nina.netlify.app/"
+    },
+    {
+        id: 16,
         title: "Rock Paper Scissors",
         description: "Rock Paper Scissors made with HTML, CSS, Javascript and APIs. This game is only in german! Web application loads very slowly!",
         image: "rock-paper-scissors.PNG",
