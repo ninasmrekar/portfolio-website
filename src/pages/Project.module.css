@@ -13,8 +13,8 @@
     margin-top: 1rem;
     border-radius: 5px;
     color: black;
-    padding: 1rem;
-    font-size: 2rem;
+    padding: 0.5rem;
+    font-size: 1.8rem;
 }
 
 .custom-btn:hover, .custom-btn:active, .custom-btn:active:focus{
@@ -87,6 +87,7 @@
         justify-content: center;
         height: 95vh;
         align-items: start !important;
+        text-align: left;
     }
 
     .container h2{
@@ -94,12 +95,13 @@
         margin: 0;    
         margin-bottom: 1rem;
         font-weight: 700;
-        text-align: center;
+        text-align: left;
     }
 
     .container section{
         display: flex;
         flex-direction: column;
+        align-items: start;
         margin-left: 3rem;
         width: 30vw;
     }
