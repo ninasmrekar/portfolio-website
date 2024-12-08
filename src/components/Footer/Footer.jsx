@@ -18,7 +18,7 @@ function Footer() {
         <Link to="https://github.com/ninasmrekar">
           <img src={githubIcon} alt="github icon" />
         </Link>
-        <Link to="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+        <Link to="https://www.linkedin.com/in/nina-smrekar">
           <img src={linkedinIcon} alt="linkedin icon" />
         </Link>
         <Link to="https://www.instagram.com/nina.sm_5/">

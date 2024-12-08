@@ -13,7 +13,10 @@ const ProjectPage = () => {
     <div>
       <Nav />
       <main className={styles.container}>
-        <img src={"/projects/" + project.image} alt={project.title} />
+        <img
+          src={"/src/assets/projects/" + project.image}
+          alt={project.title}
+        />
         <section>
           <h2>{project.title.toUpperCase()}</h2>
           <p>{project.description}</p>
